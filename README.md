@@ -1,2 +1,5 @@
-# observabilitygym
-ExploitGym for Observability
+# ObservabilityGym
+
+AI has ExploitGym. Monitoring has ObservabilityGym.
+
+## Coming Soon
