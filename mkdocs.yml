@@ -1,0 +1,35 @@
+site_name: ObservabilityGym
+site_description: Vendor-neutral, reproducible benchmark for observability backends — the measurement layer observability has been missing.
+site_url: https://agardnerit.github.io/observabilitygym/
+repo_url: https://github.com/agardnerIT/observabilitygym
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list

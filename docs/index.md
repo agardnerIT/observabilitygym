@@ -36,13 +36,13 @@ tier ExploitGym cannot have.
 
 ## Docs
 
-- [Methodology](docs/methodology.md) — the ExploitGym protocol, tier split,
+- [Methodology](methodology.md) — the ExploitGym protocol, tier split,
   dimensions, tolerance bands, anti-gaming rules, non-goals, roadmap
 
 ## Status
 
 **Phase 0** — methodology agreed, harness skeleton next. See the
-[roadmap](docs/methodology.md#6-roadmap).
+[roadmap](methodology.md#6-roadmap).
 
 ## License
 
