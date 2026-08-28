@@ -7,7 +7,7 @@ observability backends. It adapts the evaluation protocol that the AI
 community accepted for [ExploitGym](https://github.com/sunblaze-ucb/exploitgym)
 — where serious AI labs and providers agree on the rules — and applies it to
 the observability ecosystem, which today relies on analyst judgment (e.g. the
-Gartner Magic Quadrant) instead of falsifiable, rerunnable measurement.
+Gartner Magic Quadrant) instead of auditable, reproducible measurement.
 
 We are the reproducible measurement layer that analyst quadrants do not
 provide. We measure what backends *do* with your telemetry, not how vendors
@@ -167,4 +167,4 @@ with a pinned harness, and the AI labs accept those rankings. ObservabilityGym
 does the same for observability vendors — and adds a fully-controlled tier
 ExploitGym cannot have. Vendors can read every rule, run every probe, and
 rerun the suite themselves. They can dispute results; they cannot dispute the
-method — and disputable results are the point of a measurement, not a flaw.
+method — and contestable results are the point of a measurement, not a flaw.

@@ -9,8 +9,10 @@ and the observability ecosystem does not.
 Today the closest thing observability has is the Gartner Magic Quadrant:
 analyst judgment, opaque scoring, not rerunnable by the customer.
 ObservabilityGym is the reproducible measurement layer — the same telemetry,
-the same workloads, the same probes, run against every vendor, ranked by
-falsifiable numbers anyone can re-run.
+the same workloads, the same probes, run against every vendor. Every step is
+published and auditable: probes, rubric, seeds, and results. In the
+Controlled tier anyone can re-run the suite and check our numbers; in the
+Field tier anyone can re-run it and compare their own experience.
 
 ## The idea in one paragraph
 
