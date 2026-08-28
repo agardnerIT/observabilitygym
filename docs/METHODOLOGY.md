@@ -46,7 +46,7 @@ forking its codebase.
 
 | | Field tier | Controlled tier |
 |---|---|---|
-| What it measures | Hosted SaaS vendors (Datadog, Honeycomb, New Relic, Grafana Cloud) | Self-hosted backends we provision ourselves |
+| What it measures | Hosted SaaS vendors (Datadog, Dynatrace, Honeycomb, New Relic, Grafana Cloud) | Self-hosted backends we provision ourselves |
 | Environment | We control only our side (emit path, workload, queries, timing) | We control everything: hardware, OS, network, versions, config |
 | Result type | Distribution + confidence intervals | Point values, ExploitGym-grade determinism |
 | Claim supported | *Experienced* service quality | *Engine* capability |
@@ -82,10 +82,10 @@ Where we have the environment in our hands, we pin everything:
   differences are attributable to the engine.
 
 Controlled is not open-source-only. Commercial vendors that ship
-self-hostable or enterprise editions — Splunk Enterprise, Elastic, Dynatrace
-Managed, Grafana Enterprise, Instana, and others — run in this tier with full
-laboratory control. This recovers a large share of "rank the vendors people
-actually buy" without any caveats.
+self-hostable or enterprise editions — Splunk Enterprise, Elastic, Grafana
+Enterprise, Instana, and others — run in this tier with full laboratory
+control. This recovers a large share of "rank the vendors people actually
+buy" without any caveats.
 
 ## 3. What we measure
 

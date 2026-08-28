@@ -27,7 +27,7 @@ tier ExploitGym cannot have.
 
 | | Field | Controlled |
 |---|---|---|
-| Targets | Hosted SaaS: Datadog, Honeycomb, New Relic, Grafana Cloud | Self-hosted: SigNoz, Grafana OSS stack, Jaeger + Prometheus, Splunk Enterprise, Elastic, Dynatrace Managed … |
+| Targets | Hosted SaaS: Datadog, Dynatrace, Honeycomb, New Relic, Grafana Cloud | Self-hosted: SigNoz, Grafana OSS stack, Jaeger + Prometheus, Splunk Enterprise, Elastic … |
 | Environment | We control our side only; conditions recorded in `metadata.yml` | Everything pinned — hardware, versions, config |
 | Result type | Distributions + confidence intervals | Point values |
 | Claim | *Experienced* service quality | *Engine* capability |
